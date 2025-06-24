@@ -1,0 +1,82 @@
+# 编译产物和可执行文件
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+search_server
+search_client
+build_dictionaries
+build_webpages
+config_test
+
+# CMake 构建文件
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+.cmake/
+
+# IDE 和编辑器配置文件
+.vscode/
+.cursor/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 缓存和临时文件
+.cache/
+*.tmp
+*.temp
+*.log
+
+# 备份文件
+*.bak
+*.backup
+*~
+
+# 操作系统相关
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# 调试信息
+*.dSYM/
+*.su
+*.idb
+*.pdb
+core
+*.core
+
+# 静态分析工具
+.clang_complete
+.clang-format
+.clangd/
+
+# Valgrind
+*.memcheck
+vgcore.*
+
+# GDB
+.gdb_history
+
+# 版本控制
+.svn/
+.hg/
+.bzr/
+
+# 压缩文件
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# 文档构建产物
+docs/html/
+docs/latex/
+*.pdf 
